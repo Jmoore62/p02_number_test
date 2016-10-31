@@ -1,0 +1,61 @@
+/*Author: Jacob Moore*/
+body {
+  background-color: #CAD8FE;
+}
+
+p {
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.labelFont {
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #f01010;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+}
+
+a.noDecoration:hover {
+  text-decoration: none;
+}
+
+.fontColorGreen {
+  color: Green;
+}
+
+.fontColorRed {
+  color: #ff0000;
+}
+
+.fontColorYellow {
+  color: Yellow;
+}
+
+.fontColorGreen:hover {
+  color: Green;
+}
+
+.fontColorRed:hover {
+  color: #ff0000;
+}
+
+.fontColorYellow:hover {
+  color: Yellow;
+}
+
+li {
+  font-size: 150%;
+}

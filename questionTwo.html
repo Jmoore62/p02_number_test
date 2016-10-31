@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <!--Author: Jacob Moore -->
+  <head>
+    <title>Number Test</title>
+    <meta charset="utf-8">
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="test.js"></script>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+  <body onload="setTextColor(); generateQuestionTwo(); setTime();" lang="en-US">
+    <div style="width: 40%; float: left">
+      &nbsp;
+    </div>
+
+    <div style="width: 50%; float: left">
+      <p>Test Two</p>
+      <p id="inputOne">1,7 -&gt; 89</p>
+      <p id="inputTwo">2,3 -&gt; 6</p>
+      <p id="inputThree">4,2 -&gt; 10</p>
+      <p id="inputFour">2,1 -&gt; 3</p>
+      <p id="inputFive">5,6 -&gt; 66</p>
+
+      <form class="form-inline">
+        <div class="form-group" id="inputGroup">
+          <label id="inputSix" class="labelFont" for="input">6,7 -&gt;</label>
+          <input placeholder="Enter Number" type="text" class="form-control" id="input" oninput="checkInputOne(); setTime()">
+          <span id="inputError" class="control-label hidden-md">
+            &nbsp;
+          </span>
+        </div>
+      </form>
+    </div>
+
+    <div style="width: 10%; float: left">
+      <p style="font-size: 150%"><a id="questionOne" class="noDecoration" href="questionOne.html">Test One</a></p>
+      <p style="font-size: 150%"><a id="questionThree" class="noDecoration" href="questionThree.html">Test Three</a></p>
+      <p style="font-size: 150%"><a class="noDecoration" href="index.html">Home</a></p>
+      <p style="font-size: 150%"><a class="noDecoration" href="result.html">Results</a></p>
+    </div>
+    <p id="question" style="display: none;">2</p>
+  </body>
+</html>
