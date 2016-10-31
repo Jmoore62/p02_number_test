@@ -203,10 +203,8 @@ function getResults() {
 
   if (timeTaken - 360000 <= 0) {
     var score = 100;
-    console.log(score);
   }else{
     var score = 100 - ((timeTaken - 360000) / 15000);
-    console.log(score);
   }
 
   switch(numCorrect) {
@@ -396,11 +394,6 @@ function setTime() {
     setCookie("timeTaken",timeTaken,10);
   }
 
-  console.log(timeTaken);
-
-
-
-
   if (document.getElementById("question") != null) {
     var checkQuestion = document.getElementById("question").innerHTML;
     if (checkQuestion == 1){
@@ -412,7 +405,6 @@ function setTime() {
     }
 
     var cookie = getCookie(question);
-
 
     if (cookie != 1){
       isUpdate = true;
